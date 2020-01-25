@@ -272,6 +272,7 @@ run_bs = function(X, y, k, start, miqp_bs_method,
   miqp_bs_method(X, y, k, xtx, beta0, bigm)
 }
 
+# @export
 miqp_bs = function(x, y, k, xtx, beta0, bigm, time.limit=100, verbose=FALSE,
                     params=list()){
   
